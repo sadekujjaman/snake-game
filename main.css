@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  color: navy;
+}
+.grid-element-canvas {
+  background-color: #fff;
+  position: relative;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+}
+.canvas-parent {
+  border: 1px solid #333;
+  display: contents;
+}
+.canvas-content {
+  position: absolute;
+}
+#grid-canvas {
+  z-index: 1;
+}
+#foodCanvas {
+  z-index: 2;
+}
+#snakeCanvas {
+  z-index: 3;
+}
